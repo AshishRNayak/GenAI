@@ -3,11 +3,11 @@
 # also groq as an LLM model 
 
 
-# here we are using an AI agent which will use a weather tool for getting the relative answers as per user query.
+# here I am using an AI agent which will use a weather tool for getting the relative answers as per user query.
 
 # the weather tool we created is using openweathermap api docs which is providing all the weather details for specific city.
 
-# the a:\Work\GenAI\AI_Agents\Pydantic_AI\agent.py is the main file were we are creating both the agents and weather tool .
+# the GenAI\Pydantic_AI\agent.py is the main file were we are creating both the agents and weather tool .
 
 
 Flow 

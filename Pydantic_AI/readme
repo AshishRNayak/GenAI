@@ -1,9 +1,40 @@
+Pydantic AI is a Python agent framework designed to help you quickly, confidently, and painlessly build production grade applications and workflows with Generative AI.
+FastAPI revolutionized web development by offering an innovative and ergonomic design, built on the foundation of Pydantic Validation and modern Python features like type hints.
+
+For more follow this link -> https://pydantic.dev/docs/ai/overview/
+
+Pre-Requesite ->
+
+      Software Requirements
+            Python 3.10 or later (PydanticAI and the Groq SDK require Python 3.10+)
+            Visual Studio Code (recommended)
+            pip (Python package manager)
+            Git (optional, for version control)
+     
+      Required Python Libraries
+            pip install pydantic-ai
+            pip install requests
+            pip install python-dotenv
+
+      API Keys Required
+            GROQ_API_KEY
+            OPENWEATHER_API_KEY
+      
+      Environment Variables(Storing secrets)
+            GROQ_API_KEY=xxxxxxxxxxxxxxxx
+            OPENWEATHER_API_KEY=xxxxxxxxxxxxxxxx
+
+
 # we are creating here an agent which will tell us about the weather according to cities.
 # we are using here pydantic ai as agent framework
 # also groq as an LLM model 
 
 
 # here I am using an AI agent which will use a weather tool for getting the relative answers as per user query.
+
+# the weather_agent() is the function which contains the model information.
+
+# get_weather_forecast() is the function which is used as a weather tool.
 
 # the weather tool we created is using openweathermap api docs which is providing all the weather details for specific city.
 
